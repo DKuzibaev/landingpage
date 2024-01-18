@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-menu {
+  background-color: #ffffff;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.logo {
+  max-height: 100%;
+  margin-top: 12px;
+}
+
+.nav-link-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.nav-tag {
+  text-decoration: none;
+  color: var(--Colour-Main-Blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  margin-right: 60px;
+}
+
+.buy-btn {
+  width: 160px;
+  min-height: 26px;
+  border-radius: 5px;
+  background: var(--Colour-Main-Blue-800, #111b47);
+  color: #fff;
+  border: 1px solid var(--Colour-Main-Blue-800, #111b47);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 1161px;
+  padding: 160px 0;
+  background: url("../img/hero_content.png");
+  background-position-x: 450px;
+
+  background-repeat: no-repeat;
+}
+
+.hero-txt-box {
+  display: flex;
+  width: 600px;
+  padding-right: 0.374px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hero-txt-box .hero-h1 {
+  min-width: 550px;
+
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+
+.hero-txt-box .p-txt-box {
+  min-width: 550px;
+
+  color: var(--Colour-Main-Blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-h1 {
+  margin-bottom: 20px;
+}
+.p-txt-box {
+  margin-bottom: 50px;
+}
+
+.ui-kit-btn,
+.more-btn {
+  margin-top: 0px;
+  margin-right: 30.15px;
+  width: 189px;
+  height: 36px;
+}
+
+.ui-kit-btn {
+  border: 2px solid var(--Colour-Main-Blue-800, #111b47);
+  border-radius: 5px;
+  background: var(--Colour-Main-Blue-800, #111b47);
+
+  color: var(--colour-secondary-white-100-general, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.more-btn {
+  border: 2px solid var(--Colour-Main-Blue-800, #111b47);
+  border-radius: 5px;
+  color: var(--Colour-Main-Blue-900, #091133);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.bg-hero-img {
+  position: relative;
+  width: 1490px;
+}
+
+.hero-maskot {
+  opacity: 0.7;
+  width: 1000px;
+}
+
+.undraw {
+  min-height: 742px;
+  padding: 160px 0;
+  background: url("../img/undraw.png");
+  background-position: left 1200px center;
+  background-size: 540px 524px;
+  background-repeat: no-repeat;
+}
+
+.undraw-txt-box {
+  display: flex;
+  width: 600px;
+  padding-right: 0.374px;
+  margin-top: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.undraw-h2 {
+  min-width: 550px;
+
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.h2-txt-box {
+  min-width: 550px;
+  margin-top: 16px;
+  color: var(--Colour-Main-Blue-400, #6f7cb2);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.title-t {
+  position: relative;
+  min-width: 255px;
+}
+
+.title-t .big-p-title {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  min-height: 26px;
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.title-t .p-title-txt {
+  min-height: 54px;
+  color: var(--Colour-Main-Grey-600, #5d6970);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
